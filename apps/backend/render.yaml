@@ -1,0 +1,17 @@
+
+services:
+  - type: web
+    name: aurion-api
+    env: docker
+    rootDir: apps/backend
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: METRICS_ENABLED
+        value: "true"
+      # - key: DATABASE_URL
+      #   value: postgresql+asyncpg://<user>:<pass>@<host>/<db>

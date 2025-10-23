@@ -1,0 +1,13 @@
+:root{--gold:#C7A45E;--deep:#0b1a2b;--ink:#121212;--paper:#FAFAFA}
+body{margin:0;background:var(--deep);color:var(--paper);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,Helvetica,sans-serif}
+.app .brand{display:flex;align-items:center;gap:12px;padding:12px 16px;background:linear-gradient(90deg, var(--deep), #173659)}
+.app .brand h1{font-size:18px;margin:0}
+.app .brand button{margin-left:auto;background:var(--gold);border:none;padding:8px 12px;border-radius:8px;cursor:pointer;color:#1a1a1a}
+.app .brand .metrics{margin-left:12px;color:#F2D17A;text-decoration:none}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:16px;padding:16px}
+.panel{background:#0f2238;border:1px solid #1e3a5f;border-radius:16px;padding:16px}
+.panel .btns{display:flex;flex-wrap:wrap;gap:8px}
+.panel button{background:#173659;color:#eaeaea;border:1px solid #29527e;border-radius:10px;padding:8px 10px;cursor:pointer}
+.viewer{background:#0f2238;border:1px solid #1e3a5f;border-radius:16px;padding:16px}
+.log{background:#0b1a2b;color:#d3d3d3;padding:10px;border-radius:8px;height:140px;overflow:auto}
+.foot{text-align:center;padding:16px;border-top:1px solid #1e3a5f;color:#b9c7d9}

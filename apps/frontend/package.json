@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "three": "^0.167.0",
     "web-ifc": "^0.0.51",
-    "web-ifc-three": "^0.0.150"
+    "web-ifc-three": "0.0.150"
   },
   "devDependencies": {
     "vite": "^5.4.0",
